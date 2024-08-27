@@ -1,6 +1,3 @@
-# Terraform locals are similar to variables, however they are scoped to use within a module.
-# Locals are used to assign a value to a variable that is used multiple times within a module.
-# Locals can only be changed in the code.
 locals {
   region = "us-west-2"
   bucket = "scs-my-test-bucket"
