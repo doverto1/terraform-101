@@ -6,9 +6,9 @@
 2. [Data](https://github.com/doverto1/terraform-101/blob/44cfb53160dcf9074720f55dbb751084bf2edfec/data.tf) - Allows Terraform to reference objects created outside of the terraform working directory.
 3. Variable - Assigned values that you can use in multiple places in your configuration code. The idea is you can change the value in one place and it changes the value where it is referenced in the configuration files. There are two types of variables:
     1. [Input Variables](https://github.com/doverto1/terraform-101/blob/44cfb53160dcf9074720f55dbb751084bf2edfec/variables.tf) - These items can be changed in the configuration and outside of the configuration files.
-    2. Local Variables - These items can only be changed in the configuration files.
+    2. [Local Variables](https://github.com/doverto1/terraform-101/blob/51b533794516a8f81c84e13dc6f65ef4fdebc4d5/locals.tf) - These items can only be changed in the configuration files.
 4. [Output](https://github.com/doverto1/terraform-101/blob/44cfb53160dcf9074720f55dbb751084bf2edfec/output.tf) - Displays the value a Resource, Data, or Variable definition.
-5. Module - Templated Resource definitions.
+5. [Module](https://github.com/doverto1/terraform-101/blob/51b533794516a8f81c84e13dc6f65ef4fdebc4d5/module.tf) - Templated Resource definitions.
 
 ## Terraform Commands
 ### Terraform Init
