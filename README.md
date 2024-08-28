@@ -3,7 +3,7 @@ Repository for going over the basics of Terraform.
 ### Terraform installation
 [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-### Terraform Syntax
+### Terraform Configuration Syntax
 1. [Resource](https://github.com/doverto1/terraform-101/blob/44cfb53160dcf9074720f55dbb751084bf2edfec/s3.tf) - Describes objects intended to be managed in terraform.
 2. [Data](https://github.com/doverto1/terraform-101/blob/44cfb53160dcf9074720f55dbb751084bf2edfec/data.tf) - Allows Terraform to reference objects created outside of the terraform working directory.
 3. Variable - Assigned values that you can use in multiple places in your configuration code. The idea is you can change the value in one place and it changes the value where it is referenced in the configuration files. There are two types of variables:
