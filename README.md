@@ -1,3 +1,5 @@
+# Terraform 101
+Repository for going over the basics of Terraform. 
 ### Terraform installation
 [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
